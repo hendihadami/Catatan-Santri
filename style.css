@@ -24,13 +24,9 @@
 </head>
 <body>
   <nav>
-    <a href="index.html">Beranda</a>
-    <a href="tentang.html">Tentang</a>
-  </nav>
-
   <h1>Halaman Tentang</h1>
   <p>Ini adalah halaman kedua dari website kamu.</p>
-
   <a href="index.html">← Kembali ke Beranda</a>
+ </nav>
 </body>
 </html>
