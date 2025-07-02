@@ -1,4 +1,22 @@
-body {
+<head>
+nav {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+<head>
+<body> {
   background-color: #fefefe;
   font-family: 'Arial', sans-serif;
   text-align: center;
@@ -8,4 +26,4 @@ body {
 h1 {
   color: #4caf50;
 }
-
+</body> 
