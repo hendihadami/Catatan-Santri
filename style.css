@@ -19,72 +19,38 @@
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #e8f5e9;
-  color: #2e7d32;
+  font-family: sans-serif;
+  background-color: #f9fbe7;
   padding: 20px;
-  line-height: 1.6;
-  text-align: center;
 }
 
-/* === 2. JUDUL & PARAGRAF === */
-h1, h2, h3 {
-  color: #2e7d32;
-  margin-bottom: 10px;
-}
-
-p {
-  font-size: 16px;
-  color: #444;
-  margin-bottom: 15px;
-}
-
-/* === 3. NAVIGASI === */
-nav {
-  background-color: #388e3c;
-  padding: 15px;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 10px;
-  font-weight: bold;
-  font-size: 16px;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-/* === 4. FORMULIR === */
-form {
-  background-color: white;
+.artikel {
+  background: white;
   padding: 20px;
   border-radius: 10px;
-  display: inline-block;
-  box-shadow: 0 0 8px rgba(0,0,0,0.1);
-  margin-top: 30px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  max-width: 700px;
+  margin: 30px auto;
 }
 
-input, button, textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 12px;
-  border: 1px solid #ccc;
+.artikel h2 {
+  color: #2e7d32;
+}
+
+.hadits {
+  background-color: #f1f8e9;
+  border-left: 5px solid #66bb6a;
+  padding: 15px;
+  font-style: italic;
   border-radius: 5px;
 }
 
-button {
-  background-color: #66bb6a;
-  color: white;
-  border: none;
-  cursor: pointer;
+footer {
+  margin-top: 50px;
+  text-align: center;
+  color: #666;
 }
 
-button:hover {
-  background-color: #4caf50;
-}
 
 /* === 5. GALERI FOTO === */
 .galeri {
