@@ -19,38 +19,43 @@
 }
 
 body {
-  font-family: sans-serif;
   background-color: #f9fbe7;
+  font-family: sans-serif;
+  color: #333;
   padding: 20px;
+  line-height: 1.6;
 }
 
 .artikel {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   max-width: 700px;
-  margin: 30px auto;
+  margin: 40px auto;
 }
 
-.artikel h2 {
+h1, h2 {
   color: #2e7d32;
 }
 
-.hadits {
+a {
+  color: #388e3c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+blockquote.hadits {
   background-color: #f1f8e9;
   border-left: 5px solid #66bb6a;
-  padding: 15px;
+  padding: 15px 20px;
   font-style: italic;
-  border-radius: 5px;
+  border-radius: 8px;
+  color: #33691e;
 }
-
-footer {
-  margin-top: 50px;
-  text-align: center;
-  color: #666;
-}
-
 
 /* === 5. GALERI FOTO === */
 .galeri {
