@@ -1,29 +1,88 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>Halaman Tentang</title>
-body {
-  .artikel {
-  max-width: 600px;
-  margin: 40px auto;
-  text-align: left;
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+/* === 1. RESET DASAR === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  padding: 20px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* === 2. JUDUL & PARAGRAF === */
+h1, h2, h3 {
+  color: #2e7d32;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+/* === 3. NAVIGASI === */
+nav {
+  background-color: #388e3c;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* === 4. FORMULIR === */
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  margin-top: 30px;
+}
+
+input, button, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #66bb6a;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4caf50;
+}
+
+/* === 5. GALERI FOTO === */
 .galeri {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 15px;
-  padding: 20px;
   justify-items: center;
+  padding: 20px;
 }
 
 .kotak {
-  width: 100%;
   max-width: 130px;
   text-align: center;
 }
@@ -47,15 +106,34 @@ body {
   color: #2e7d32;
 }
 
-</head>
-<body>
-<nav>
-  <a href="index.html">Beranda</a>
-  <a href="tentang.html">Tentang</a>
-   <a href="kontak.html">kontak</a>
-</nav>
-  <h1>Halaman Tentang</h1>
-  <p>Ini adalah halaman kedua dari website kamu.</p>
-  <a href="index.html">← Kembali ke Beranda</a>
-</body>
-</html>
+/* === 6. ARTIKEL BLOG === */
+.artikel {
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: left;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.artikel h3 {
+  color: #2e7d32;
+  margin-top: 25px;
+}
+
+.artikel p {
+  font-size: 16px;
+  color: #444;
+}
+
+/* === 7. FOOTER === */
+footer {
+  background-color: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  font-size: 14px;
+  border-top: 3px solid #004d40;
+}
