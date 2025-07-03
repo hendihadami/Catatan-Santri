@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>Halaman Tentang</title>
-<style>
  .galeri {
   display: flex;
   flex-wrap: wrap;
@@ -23,7 +22,6 @@
 .galeri img:hover {
   transform: scale(1.05);
 }
-  </style>
 </head>
 <body>
 <nav>
