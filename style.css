@@ -1,5 +1,45 @@
 /* === 1. RESET DASAR === */
 * {
+  /* Centering seluruh isi beranda */
+.beranda {
+  height: 100vh; /* 100% tinggi layar */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertikal tengah */
+  align-items: center;     /* Horizontal tengah */
+  text-align: center;
+  background-color: #f9fbe7;
+  padding: 20px;
+}
+
+/* Judul besar */
+.beranda h1 {
+  font-size: 32px;
+  color: #2e7d32;
+  margin-bottom: 10px;
+}
+
+/* Deskripsi kecil */
+.beranda p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Tombol menuju blog */
+.tombol {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #388e3c;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.tombol:hover {
+  background-color: #2e7d32;
+}
   .kotak-teks {
   background-color: #f0f4c3; /* warna kuning kehijauan */
   color: #33691e;            /* hijau gelap */
