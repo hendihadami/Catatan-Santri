@@ -89,25 +89,25 @@ button:hover {
 /* === 5. GALERI FOTO === */
 .galeri {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
   justify-items: center;
   padding: 20px;
 }
 
 .item {
   width: 100%;
-  max-width: 220px;
+  max-width: 130px;
   text-align: center;
 }
 
 .item img {
   width: 100%;
-  height: 150px;
+  height: 120px;
   object-fit: cover;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-  transition: transform 0.3s;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
 }
 
 .item img:hover {
@@ -115,10 +115,11 @@ button:hover {
 }
 
 .item p {
-  font-size: 14px;
-  color: #2e7d32;
+  font-size: 12px;
   margin-top: 6px;
+  color: #2e7d32;
 }
+
 
 /* === 6. ARTIKEL BLOG === */
 .artikel {
