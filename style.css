@@ -4,23 +4,24 @@
   <meta charset="UTF-8">
   <title>Halaman Tentang</title>
 <style>
-  background-color: #00796b;
-  padding: 15px;
-  text-align: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+ .galeri {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
 }
 
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 20px;
-  font-size: 18px;
-  font-weight: bold;
-  transition: 0.3s;
+.galeri img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
 }
 
-nav a:hover {
-  color: #c8f7c5;
+.galeri img:hover {
+  transform: scale(1.05);
 }
   </style>
 </head>
