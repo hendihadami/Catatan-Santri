@@ -24,11 +24,12 @@ nav {
 }
 
 .nav-list a {
-  color: white; /* ✅ Warna putih untuk teks */
+  color: white;              /* ✅ Warna putih untuk teks */
   text-decoration: none;
   font-weight: bold;
   font-size: 1rem;
 }
+
 
 /* Responsive untuk HP */
 @media (max-width: 600px) {
