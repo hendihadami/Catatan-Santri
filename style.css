@@ -24,7 +24,7 @@ nav {
 }
 
 .nav-list a {
-  color: white;
+  color: white; /* ✅ Warna putih untuk teks */
   text-decoration: none;
   font-weight: bold;
   font-size: 1rem;
