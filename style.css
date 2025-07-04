@@ -210,3 +210,18 @@ footer {
   font-size: 14px;
   border-top: 3px solid #004d40;
 }
+.wa-button {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.wa-button:hover {
+  background-color: #1EBE5D;
+}
+
