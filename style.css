@@ -1,4 +1,9 @@
 /* === 1. RESET DASAR === */
+main {
+  padding: 20px;
+  margin-top: 20px; /* ✅ Tambah jarak dari nav */
+}
+
 * {
  /* Navigasi horizontal */
 nav {
