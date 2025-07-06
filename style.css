@@ -175,29 +175,29 @@ blockquote.hadits {
 
 
 /* === 6. ARTIKEL BLOG === */
-.artikel {
+.daftar-artikel {
   max-width: 700px;
-  margin: 40px auto;
-  background-color: #ffffff;
-  padding: 25px;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  text-align: left;
-  font-size: 16px;
-  line-height: 1.7;
+  margin: 30px auto;
+  padding: 0;
+  list-style: none;
 }
 
-.artikel h2 {
-  color: #2e7d32;
-}
-
-.artikel blockquote.hadits {
+.daftar-artikel li {
   background-color: #f1f8e9;
-  border-left: 5px solid #66bb6a;
-  padding: 12px 20px;
-  font-style: italic;
-  color: #33691e;
+  margin-bottom: 15px;
+  padding: 15px 20px;
   border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.daftar-artikel li a {
+  text-decoration: none;
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+.daftar-artikel li a:hover {
+  color: #1b5e20;
 }
 
 /* === 7. FOOTER === */
