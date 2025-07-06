@@ -107,7 +107,6 @@ body {
   padding: 20px;
   line-height: 1.6;
 }
-/* === 6. ARTIKEL BLOG === */
 .daftar-artikel {
   max-width: 700px;
   margin: 30px auto;
@@ -121,6 +120,7 @@ body {
   padding: 15px 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  font-size: 18px;
 }
 
 .daftar-artikel li a {
@@ -131,37 +131,6 @@ body {
 
 .daftar-artikel li a:hover {
   color: #1b5e20;
-}
-
-.artikel {
-  background-color: #fff;
-  padding: 25px;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  max-width: 700px;
-  margin: 40px auto;
-}
-
-h1, h2 {
-  color: #2e7d32;
-}
-
-a {
-  color: #388e3c;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-blockquote.hadits {
-  background-color: #f1f8e9;
-  border-left: 5px solid #66bb6a;
-  padding: 15px 20px;
-  font-style: italic;
-  border-radius: 8px;
-  color: #33691e;
 }
 
 /* === 5. GALERI FOTO === */
